@@ -33,7 +33,7 @@ And then thirdly start pproxy Docker instance using your own shadowsocks configu
 
 ```
 docker run -d --network="host" \
---name=pproxy kxuan998/pproxy \
+--name=pproxy kxuan998/pproxy:v0.0.1 \
 pproxy -l ss://chacha20:abc@:8080 -r socks5://localhost:1081
 ```
 
