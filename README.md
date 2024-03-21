@@ -47,7 +47,7 @@ Explain how to switch servers when you want or previous server is down.
 
 Choose new ovpn location.
 ```
-python first_vpngate.py kr
+python3 first_vpngate.py kr
 ```
 
 ### And restart ovpnsocks Docker instance
